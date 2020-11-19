@@ -1,5 +1,9 @@
 # Music-Genre-Classification
 
+The goal is to get a computer to predict genre classfication but try to do it better than when I tried this before. Previous results are posted as pdfs in this repository.
+I'll use the previous results (floating around 60% accuracy) as a benchmark for now.
+
+
 Plan is as follows:
 
 1. Collect a whole lot of mp3 or wav files (or at least find a music dataset to trian the model)
