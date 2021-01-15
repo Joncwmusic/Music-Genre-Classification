@@ -23,8 +23,8 @@ import keras
 
 
 # import and clean the data: It's already pretty clean BUT
-df_30_sec = pd.read_csv("C:/Users/ICD-15/Music-Classification-Project/features_30_sec.csv")
-df_3_sec = pd.read_csv("C:/Users/ICD-15/Music-Classification-Project/features_3_sec.csv")
+df_30_sec = pd.read_csv("features_30_sec.csv")
+df_3_sec = pd.read_csv("features_3_sec.csv")
 
 df_30_sec.drop(['filename', 'length'], axis = 1, inplace = True)
 df_3_sec.drop(['filename', 'length'], axis = 1, inplace = True)
