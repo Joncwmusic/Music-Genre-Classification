@@ -30,6 +30,3 @@ Using the Spectrogram Images:
   2. Images were 218, 336, 4 dimensional and split into train and validation sets for the model
   3. NN architecture: (Conv2D Relu -> Conv2D Relu -> MaxPool2D ->) x3 -> Conv2D Relu -> MaxPool2D -> Dense10 tanh-> Dense12 tanh -> Dense10 softmax
   4. Training accuracy as high as 90% but Test Accuracy at 40% at ~50 epochs. Very prone to overfitting. Horrendously inefficient.
-
-using Raw Audio:
-  1. We'll try this next.
